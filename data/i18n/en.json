@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "siteName": "HODLIPOP",
+    "defaultTitle": "HODLIPOP — Senior Fullstack Product Engineer",
+    "defaultDescription": "I design and build modern, high-performance web applications. 20+ years of experience, hands-on CTO, full remote, bilingual FR/EN."
+  },
+  "nav": {
+    "home": "Home",
+    "expertise": "Expertise",
+    "projects": "Projects",
+    "missions": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Let's discuss your project"
+  },
+  "hero": {
+    "tagline": "Senior Fullstack Product Engineer",
+    "title": "From prototype to production.",
+    "description": "Occasional technical reinforcement or long-term support on complex systems.",
+    "ctaPrimary": "Let's discuss your project",
+    "ctaSecondary": "Our work",
+    "stats": {
+      "experience": "20+ years experience",
+      "cto": "Hands-on CTO",
+      "remote": "Full Remote",
+      "bilingual": "FR / EN Bilingual"
+    }
+  },
+  "services": {
+    "label": "FREELANCE SERVICES",
+    "title": "Tailored solutions for your digital projects",
+    "items": [
+      {
+        "title": "Frontend Development",
+        "description": "Modern, performant, and accessible interfaces with React, Next.js, and TypeScript."
+      },
+      {
+        "title": "Fullstack Web Applications",
+        "description": "From API to UI, I deliver complete products ready for production."
+      },
+      {
+        "title": "Architecture & AWS Cloud",
+        "description": "Scalable infrastructure, CI/CD, serverless, and DevOps best practices."
+      },
+      {
+        "title": "Automation & Internal Tools",
+        "description": "Custom scripts, dashboards, and tools to optimize your workflows."
+      },
+      {
+        "title": "Organization",
+        "description": "Technical vision, GDPR compliance, support for CII and CIR applications"
+      }
+    ]
+  },
+  "missions": {
+    "label": "SERVICES",
+    "title": "Flexible engagement formats",
+    "pageTitle": "Services",
+    "pageDescription": "From short-term reinforcement to strategic support, I adapt to your context, timeline, and technical challenges.",
+    "viewDetails": "View service details",
+    "contactCta": "Discuss your needs",
+    "examplesLabel": "Mission examples",
+    "sections": [
+      {
+        "id": "ponctuelles",
+        "title": "Short-term missions",
+        "description": "Focused interventions to unblock, deliver, or secure a specific scope without a long-term commitment.",
+        "highlights": [
+          "Technical audit or architecture review",
+          "Reinforcement on a sprint or critical release",
+          "Priority technical debt and bug fixes",
+          "Feature development or proof of concept",
+          "Setup of a tool, dashboard, or automation"
+        ],
+        "examples": [
+          {
+            "title": "Mail merge and document generation",
+            "description": "Development of automated systems for generating personalized documents (contracts, certificates, letters, invoices, reports) from databases or business files. Automated email delivery."
+          },
+          {
+            "title": "Release reinforcement on a B2B marketplace",
+            "description": "Stabilizing a critical release: priority bug fixes, test hardening, and deployment safety."
+          },
+          {
+            "title": "Data visualization and executive dashboards",
+            "description": "Design and implementation of interactive dashboards in Looker Studio, Power BI, and other business intelligence platforms. Setup of key metrics (KPIs), real-time visualizations, and decision-support tools."
+          }
+        ]
+      },
+      {
+        "id": "longues",
+        "title": "Long-term missions",
+        "description": "Engagements over several weeks or months to build, evolve, or modernize a product or platform.",
+        "highlights": [
+          "Production-grade fullstack Next.js / TypeScript development",
+          "Evolution of existing applications (PHP, Java, legacy)",
+          "Stack migration, progressive rewrite, or modularization",
+          "API, data, reporting, and business workflow integration",
+          "CI/CD, observability, and delivery best practices"
+        ],
+        "examples": [
+          {
+            "title": "Next.js + AWS serverless deployment POC",
+            "description": "Technical validation of a Next.js / OpenNext stack on AWS (Lambda, S3, CloudFront) with an operational CI/CD pipeline."
+          },
+          {
+            "title": "Business platform evolution",
+            "description": "Fullstack development, business workflows, reporting, and deployments for a marketplace and 15 enterprise client platforms (PHP, MySQL, ElasticSearch)."
+          },
+          {
+            "title": "Progressive frontend rewrite and stack modernization",
+            "description": "Incremental migration to Next.js / TypeScript, design system rollout, and improved delivery practices (CI/CD, code quality)."
+          }
+        ]
+      }
+    ]
+  },
+  "stack": {
+    "label": "STACK & TOOLS",
+    "title": "Technical expertise",
+    "categories": [
+      {
+        "title": "Frontend",
+        "items": ["Next.js", "React", "TypeScript", "Stripe", "CSS", "SEO"]
+      },
+      {
+        "title": "Backend & APIs",
+        "items": ["Node.js", "PHP", "Java", "AWS Lambda", "AWS API Gateway", "REST APIs"]
+      },
+      {
+        "title": "Cloud & Infrastructure",
+        "items": ["AWS", "OVH Cloud", "Debian", "Grafana", "SonarQube", "DevOps"]
+      },
+      {
+        "title": "Data",
+        "items": ["PostgreSQL", "PostGIS", "MySQL", "DynamoDB", "Redis", "Elasticsearch"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "SELECTED PROJECTS",
+    "title": "Some of my work",
+    "viewAll": "View all projects",
+    "pageTitle": "Projects",
+    "pageDescription": "Discover a selection of web projects I designed and built for my clients.",
+    "subprojectsLabel": "Subprojects",
+    "subprojectCount": "{count} subprojects",
+    "github": "GitHub",
+    "previousProject": "Previous project",
+    "nextProject": "Next project",
+    "projectNav": "Project navigation"
+  },
+  "gallery": {
+    "openLightbox": "Expand image",
+    "expand": "Expand",
+    "close": "Close",
+    "previous": "Previous image",
+    "next": "Next image",
+    "showImage": "Show image {index} of {total}",
+    "imageCounter": "{current} / {total}"
+  },
+  "timeline": {
+    "label": "EXPERIENCE",
+    "title": "20+ years of experience at the service of your projects",
+    "downloadCv": "Download my resume",
+    "pageTitle": "Experience",
+    "pageDescription": "Turn complex challenges into operational solutions. From space to modern web applications, with a pragmatic approach focused on reliability.",
+    "valueLabel": "EXPERTISE",
+    "profile": {
+      "fullName": "Judicael DECRIEM",
+      "jobTitle": "Senior FullStack Product Engineer",
+      "location": "02300 Chauny (France)",
+      "email": "contact@hodlipop.com",
+      "languages": "French / English",
+      "drivingLicense": "Driving licenses A & B"
+    },
+    "profileFields": {
+      "location": "Address",
+      "email": "Email",
+      "languages": "Languages",
+      "drivingLicense": "Driving license"
+    },
+    "profileLinks": {
+      "label": "LINKS",
+      "items": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/judicael-decriem-a28a5920/",
+          "icon": "linkedin"
+        },
+        {
+          "label": "Malt",
+          "url": "https://www.malt.fr/profile/judicaeldecriem",
+          "icon": "malt"
+        },
+        {
+          "label": "Personal GitHub",
+          "url": "https://github.com/MiniJudie",
+          "icon": "github"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Hodlipop",
+          "icon": "github"
+        },
+        {
+          "label": "Website",
+          "url": "https://hodlipop.com",
+          "icon": "website"
+        }
+      ]
+    },
+    "items": [
+      {
+        "id": "freelance-2025",
+        "period": "Jan 2025 — Present",
+        "role": "Product Engineer",
+        "company": "HODLIPOP",
+        "location": "Chauny, France · Full remote",
+        "highlights": [
+          "Development of modern web applications with Next.js and TypeScript",
+          "Business workflow automation and reporting",
+          "Internal tools focused on productivity and data",
+          "API integration, dashboards, and data processing"
+        ]
+      },
+      {
+        "id": "mytroc-cto",
+        "period": "Jun 2015 — Jan 2025",
+        "role": "Chief Technology Officer — Hands on",
+        "company": "MyTroc · Permanent",
+        "location": "Paris, France · Hybrid",
+        "highlights": [
+          "Development, maintenance, and evolution of the B2B platform and 15 B2B platforms",
+          "Development of internal PHP / JavaScript / CSS framework",
+          "Production infrastructure supervision and administration (OVH / Debian / Nginx / MySQL / ElasticSearch)",
+          "Team structuring and Agile practices",
+          "Cybersecurity leadership (SAST, hardening, detection tools)"
+        ]
+      },
+      {
+        "id": "cnrs-hotvolc",
+        "period": "Feb 2013 — Jan 2014",
+        "role": "Lead Engineer — HotVolc GIS software",
+        "company": "CNRS",
+        "location": "Clermont-Ferrand, France · On-site",
+        "highlights": [
+          "Development of a satellite-based volcanic detection system",
+          "Data processing and scientific platform"
+        ]
+      },
+      {
+        "id": "harvest-rd",
+        "period": "Mar 2011 — Jan 2013",
+        "role": "Software Engineer — fortune management",
+        "company": "Harvest SA",
+        "location": "Clermont-Ferrand, France · On-site",
+        "highlights": [
+          "Development of wealth management web applications",
+          "Contribution to internal Java framework (J2EE, Spring, Tomcat)",
+          "Design and evolution of business software components",
+          "Technical consulting on application architecture"
+        ]
+      },
+      {
+        "id": "reykjavik-phd",
+        "period": "Sep 2006 — May 2011",
+        "role": "Ph.D. in Geophysics — Active deformation in South Iceland observed by space geodetic methods",
+        "company": "Reykjavik University",
+        "location": "Reykjavik, Iceland · On-site",
+        "highlights": [
+          "Large-scale geodetic data analysis (GPS, InSAR)",
+          "Physical modeling and data inversion",
+          "Scientific tools and processing pipelines development",
+          "High-performance computing and numerical simulations",
+          "Linux systems administration and scientific infrastructure management"
+        ]
+      },
+      {
+        "id": "cea-cassini",
+        "period": "Dec 2003 — Aug 2006",
+        "role": "Software Architect / Engineer — Cassini Huygens ground data segment",
+        "company": "CEA",
+        "location": "Saclay, France · On-site",
+        "highlights": [
+          "Development of scientific and space systems",
+          "Calibration, navigation and infrared and optical data processing system"
+        ]
+      },
+      {
+        "id": "cnes-mars-express",
+        "period": "Feb 2003 — Jun 2003",
+        "role": "Software Engineer — Mars Express HRSC acquisition planning",
+        "company": "CNES",
+        "location": "Toulouse, France · On-site",
+        "highlights": [
+          "Characterization of the Martian surface from heterogeneous data and ACP",
+          "Development of hyperspectral image analysis software"
+        ]
+      },
+      {
+        "id": "arianespace",
+        "period": "Sep 2001 — Jan 2002",
+        "role": "Software Engineer — Operational Control ARIANE 5",
+        "company": "ARIANESPACE",
+        "location": "Kourou, French Guiana · On-site",
+        "highlights": [
+          "Development of ARIANE 5 control command test bench"
+        ]
+      },
+      {
+        "id": "eads-fleximage",
+        "period": "Feb 2001 — Jun 2001",
+        "role": "Software Engineer — GIS military software",
+        "company": "EADS Fleximage",
+        "location": "Paris, France · On-site",
+        "highlights": [
+          "Development of data loaders, raster, vector, 3D (DEM)"
+        ]
+      },
+      {
+        "id": "aerospatiale",
+        "period": "Jun 2000 — Aug 2000",
+        "role": "Software Engineer — 3D Missile Trajectory Modelling",
+        "company": "Aérospatiale",
+        "location": "Paris, France · On-site",
+        "highlights": [
+          "3D simulation to model missile trajectory"
+        ]
+      }
+    ],
+    "values": [
+      "Frontend & Fullstack",
+      "Software architecture",
+      "Cloud & AWS",
+      "Databases & Data",
+      "Automation & internal tools",
+      "Application takeover and modernization"
+    ],
+    "education": {
+      "label": "EDUCATION",
+      "title": "Education",
+      "items": [
+        {
+          "id": "haskoli-islands-phd",
+          "period": "2006 – 2010",
+          "degree": "PhD, geophysics",
+          "school": "Háskóli Íslands",
+          "logo": "/images/cv/education/haskoli-islands.jpg",
+          "description": "Crustal deformation from geodetic techniques: earthquakes and plate movements in the South Iceland Seismic Zone."
+        },
+        {
+          "id": "polytech-paris-saclay-ms",
+          "period": "2000 – 2003",
+          "degree": "MS, Computer Science",
+          "school": "Polytech Paris-Saclay",
+          "logo": "/images/cv/education/polytech-paris-saclay.jpg",
+          "description": "Master's in software engineering, specialization in Artificial Intelligence and Human-Machine Interface."
+        },
+        {
+          "id": "upjv-dut",
+          "period": "1999 – 2000",
+          "degree": "DUT, computer science",
+          "school": "Université de Picardie Jules Verne (UPJV)",
+          "logo": "/images/cv/education/upjv.png",
+          "description": "Associate degree in computer science (special year program)."
+        },
+        {
+          "id": "universite-artois-dut",
+          "period": "1997 – 1999",
+          "degree": "DUT, OGP (Organisation and production engineering)",
+          "school": "Université d'Artois",
+          "logo": "/images/cv/education/universite-artois.jpg"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "title": "A project to build, stabilize, or accelerate?",
+    "description": "Let's discuss your needs and see how I can help.",
+    "button": "Let's discuss your project",
+    "email": "contact@hodlipop.com",
+    "location": "France — Full Remote",
+    "language": "FR / EN"
+  },
+  "footer": {
+    "copyright": "© {year} HODLIPOP — All rights reserved"
+  },
+  "about": {
+    "title": "About",
+    "description": "Senior fullstack developer with 20+ years of experience, specialized in modern web applications.",
+    "content": "Passionate about web development for 20+ years, I help companies build high-performance digital products. My approach combines technical expertise, product vision, and pragmatism to deliver solutions that create value.",
+    "skills": "Key skills",
+    "skillsList": [
+      "Frontend & backend architecture",
+      "Next.js, React, TypeScript",
+      "AWS, serverless, CI/CD",
+      "PostgreSQL, REST & GraphQL APIs",
+      "Technical leadership & mentoring"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Have a project in mind? Get in touch to discuss it.",
+    "emailLabel": "Email",
+    "locationLabel": "Location",
+    "languagesLabel": "Languages"
+  },
+  "articles": {
+    "title": "Articles",
+    "description": "Thoughts on web development, architecture, and freelancing.",
+    "readMore": "Read article"
+  },
+  "publications": {
+    "label": "PUBLICATIONS",
+    "title": "Scientific publications",
+    "description": "Research in geophysics and planetary science from the PhD at the University of Iceland and Cassini and Mars Express missions.",
+    "totalCitations": "{count} total citations (Google Scholar)",
+    "citations": "{count} citations",
+    "viewOnScholar": "View Google Scholar profile",
+    "kinds": {
+      "journal": "Article",
+      "conference": "Conference",
+      "thesis": "Thesis"
+    }
+  },
+  "common": {
+    "backHome": "Back to home",
+    "loading": "Loading..."
+  }
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "alephium-ecosystem-suite",
+    "slug": "alephium-ecosystem-suite",
+    "title": {
+      "fr": "Alephium Ecosystem Suite",
+      "en": "Alephium Ecosystem Suite"
+    },
+    "description": {
+      "fr": "Suite d'outils web pour l'écosystème Alephium : analytics blockchain, indexation de données et automatisation pour les opérateurs de nœuds et développeurs.",
+      "en": "Web tooling suite for the Alephium ecosystem: blockchain analytics, data indexing, and automation for node operators and developers."
+    },
+    "category": {
+      "fr": "Blockchain & Web3",
+      "en": "Blockchain & Web3"
+    },
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "WebSockets",
+      "AWS"
+    ],
+    "imageUrl": "/images/projects/alephium-ecosystem-suite/cover.jpg",
+    "featured": true,
+    "order": 1,
+    "subprojects": [
+      {
+        "id": "alphscan-io",
+        "slug": "alphscan-io",
+        "title": {
+          "fr": "Alphscan.io API & Explorer  ",
+          "en": "Alphscan.io API & Explorer "
+        },
+        "description": {
+          "fr": "AlphScan.io est une plateforme d'indexation avancée pour l'écosystème Alephium, conçue pour rendre les données on-chain facilement exploitables par les développeurs, les entreprises et les utilisateurs.\n\nLa plateforme repose sur un indexeur temps réel qui agrège et enrichit les données de la blockchain en intégrant une large partie des dApps de l'écosystème. AlphScan ne se limite pas à l'indexation des transactions : il décode et résout les appels de contrats intelligents, les paramètres d'exécution et les événements, permettant une compréhension complète et vérifiable de l'activité on-chain.\n\nGrâce à son API REST publique, les développeurs peuvent accéder à des données enrichies, structurées et prêtes à l'emploi sans avoir à interroger directement la blockchain ou à décoder manuellement les contrats.\n\nLe projet inclut également :\n- Un explorateur blockchain enrichi, basé sur un fork de l'explorer officiel, offrant une lecture plus claire et détaillée des transactions et interactions avec les smart contracts.\n- Un SDK public facilitant l'intégration des données AlphScan dans des applications web, des outils d'analyse ou des services tiers.\n- Des mécanismes de vérification permettant de retracer et auditer l'ensemble des opérations directement sur la blockchain, garantissant transparence et traçabilité.",
+          "en": "AlphScan.io is an advanced indexing and data platform built for the Alephium ecosystem, designed to make on-chain data accessible, understandable, and actionable for developers, businesses, and end users.\n\nAt its core, AlphScan operates a real-time blockchain indexer that aggregates and enriches data from a large portion of the ecosystem's dApps. Beyond simple transaction indexing, the platform decodes and resolves smart contract calls, execution parameters, and emitted events, providing a complete and human-readable view of on-chain activity.\n\nThrough its public REST API, developers can access structured and enriched blockchain data without having to query the chain directly or manually decode smart contract interactions.\n\nThe project also includes :\n- An enhanced blockchain explorer, built from a fork of the official explorer and enriched with additional contextual data.\n- A public SDK that simplifies the integration of blockchain data into web applications, analytics platforms, and third-party services.\n- Advanced verification capabilities that allow users to audit and trace every operation directly back to the blockchain, ensuring transparency and trust."
+        },
+        "tags": [
+          "Blockchain Explorer",
+          "Indexer",
+          "Aws APIGateway",
+          "Aws DynamoDB",
+          "PostgreSQL"
+        ],
+        "imageUrl": "/images/projects/alephium-ecosystem-suite/alphscan.io/cover.jpg",
+        "images": [
+          "/images/projects/alephium-ecosystem-suite/alphscan.io/cover.jpg",
+          "/images/projects/alephium-ecosystem-suite/alphscan.io/02.alphscan.io.jpg",
+          "/images/projects/alephium-ecosystem-suite/alphscan.io/03.alphscan.io.jpg",
+          "/images/projects/alephium-ecosystem-suite/alphscan.io/04.alphscan.io.jpg"
+        ],
+        "links": [
+          {
+            "label": {
+              "fr": "Documentation API",
+              "en": "API docs"
+            },
+            "url": "https://docs.alphscan.io/"
+          },
+          {
+            "label": {
+              "fr": "Swagger Api",
+              "en": "Swagger Api"
+            },
+            "url": "https://api.alphscan.io/docs"
+          }
+        ],
+        "githubUrl": "https://github.com/orgs/AlphScan/repositories",
+        "order": 1
+      },
+      {
+        "id": "alephium-mirrors",
+        "slug": "alephium-mirrors",
+        "title": {
+          "fr": "Alephium Mirrors",
+          "en": "Alephium Mirrors"
+        },
+        "description": {
+          "fr": "Alephium Mirrors est un annuaire communautaire recensant les frontends alternatifs et les services d'infrastructure de l'écosystème Alephium.\n\nLa plateforme permet aux utilisateurs de découvrir et d'accéder à des interfaces indépendantes pour les principaux services de l'écosystème : dApps, explorateurs, nœuds publics, API, indexeurs, wallets et autres outils communautaires. En favorisant la multiplicité des points d'accès, Alephium Mirrors contribue à renforcer la décentralisation et à réduire la dépendance à un fournisseur unique.\n\nPrincipales fonctionnalités :\n- Répertoire des frontends alternatifs pour les dApps et services de l'écosystème.\n- Référencement de nœuds publics, API, explorateurs et infrastructures communautaires.\n- Renforcement de la résilience du réseau grâce à la redondance des interfaces.\n- Transparence sur les services opérés par la communauté.\n- Contribution à la décentralisation par la diversification des points d'accès.",
+          "en": "Alephium Mirrors is a community-driven directory that catalogs alternative frontends and infrastructure services across the Alephium ecosystem.\n\nThe platform helps users discover and access independent interfaces for essential blockchain services, including dApps, explorers, wallets, node APIs, indexers, and other ecosystem tools. By promoting multiple access points to the same underlying services, Alephium Mirrors strengthens decentralization and reduces reliance on a single frontend or infrastructure provider.\n\nKey features include :\n- Directory of alternative frontends for popular dApps and ecosystem services.\n- Discovery of public nodes, APIs, explorers, and community-operated infrastructure.\n- Improved ecosystem resilience through frontend and infrastructure redundancy.\n- Transparent access to independently operated services.\n- Support for decentralization by encouraging a diverse and distributed ecosystem."
+        },
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "AWS EventBridge",
+          "AWS APIGateway"
+        ],
+        "imageUrl": "/images/projects/alephium-ecosystem-suite/alephium-mirrors/cover.jpg",
+        "images": [
+          "/images/projects/alephium-ecosystem-suite/alephium-mirrors/01.alephium.mirrors.jpg",
+          "/images/projects/alephium-ecosystem-suite/alephium-mirrors/02.alephium.mirrors.jpg"
+        ],
+        "links": [
+          {
+            "label": {
+              "fr": "Alephium mirrors",
+              "en": "Alephium mirrors"
+            },
+            "url": "https://alephium-mirrors.com/"
+          }
+        ],
+        "githubUrl": "https://github.com/MiniJudie/alph-mirrors",
+        "order": 2
+      },
+      {
+        "id": "abx-mirror",
+        "slug": "abx-mirror",
+        "title": {
+          "fr": "AlphBanX Mirror",
+          "en": "AlphBanX Mirror"
+        },
+        "description": {
+          "fr": "ABX Mirror est un frontend indépendant permettant d'interagir avec un protocole de lending décentralisé AlpBanx inspiré de Liquity V2 sur la blockchain Alephium.\n\nLa plateforme offre un point d'accès alternatif au protocole et permet aux utilisateurs d'ouvrir des positions collatéralisées, d'emprunter des actifs, de gérer leur dette et de suivre leurs risques en temps réel à travers une interface moderne et performante. Toutes les opérations sont exécutées directement sur la blockchain, garantissant transparence et vérifiabilité.\n\nPrincipales fonctionnalités :\n- Frontend alternatif pour un protocole de lending décentralisé.\n- Gestion des positions collatéralisées et de l'exposition à la dette.\n- Suivi en temps réel des ratios de collatéralisation et des risques de liquidation.\n- Interaction directe avec les smart contracts et les données on-chain.\n- Infrastructure indépendante renforçant la résilience et la décentralisation de l'écosystème",
+          "en": "ABX Mirror is an independent frontend for a decentralized lending protocol AlpBanx inspired by the principles of Liquity V2 on the Alephium blockchain.\n\nThe platform provides an alternative access point to the protocol, allowing users to open collateralized borrowing positions, manage debt, monitor collateral health, and interact with the system through a modern and intuitive interface. All transactions are executed directly on-chain, ensuring transparency, security, and full verifiability.\n\nKey features include :\n- Alternative frontend for a decentralized lending protocol.\n- Management of collateralized borrowing positions and debt exposure.\n- Real-time monitoring of collateral ratios and liquidation risks.\n- Direct interaction with smart contracts and on-chain data.\n- Independent infrastructure that improves protocol accessibility and resilience."
+        },
+        "tags": [
+          "NextJs",
+          "typescript",
+          "AWS ApiGateway",
+          "AWS DynamoDB",
+          "Liquity V2"
+        ],
+        "imageUrl": "/images/projects/alephium-ecosystem-suite/abx-mirror/cover.jpg",
+        "images": [
+          "/images/projects/alephium-ecosystem-suite/abx-mirror/03.alphbanx.mirror.jpg"
+        ],
+        "links": [
+          {
+            "label": {
+              "fr": "Abx mirror",
+              "en": "Abx mirror"
+            },
+            "url": "https://abx.alephium-mirrors.com/"
+          }
+        ],
+        "githubUrl": "https://github.com/MiniJudie/abx-mirror",
+        "order": 3
+      },
+      {
+        "id": "ayin-retro",
+        "slug": "ayin-retro",
+        "title": {
+          "fr": "Ayin Retro",
+          "en": "Ayin Retro"
+        },
+        "description": {
+          "fr": "AYIN Retro est un frontend indépendant du protocole AYIN, un échange décentralisé (DEX) basé sur un Automated Market Maker (AMM) au sein de l'écosystème Alephium.\n\nConçu comme une alternative à l'interface officielle, AYIN Retro permet aux utilisateurs d'effectuer des swaps de tokens, de gérer leurs positions de liquidité, de suivre leurs pools et de participer aux mécanismes de staking via une interface simple, rapide et efficace.\n\nToutes les interactions sont exécutées directement via les smart contracts du protocole, garantissant une transparence totale et une vérification complète des opérations on-chain.\n\nPrincipales fonctionnalités :\n- Swaps de tokens via l'AMM AYIN.\n- Création, gestion et suivi des positions de liquidité (LP).\n- Consultation des performances des pools et des rendements.\n- Gestion des positions de staking et des récompenses associées.\n- Frontend alternatif renforçant la résilience et la décentralisation du protocole.",
+          "en": "AYIN Retro is an independent frontend for the AYIN protocol, an AMM-based decentralized exchange on the Alephium ecosystem.\n\nDesigned as an alternative access point to the protocol, AYIN Retro enables users to seamlessly interact with liquidity pools, execute token swaps, manage liquidity provider positions, and participate in staking programs through a lightweight and efficient interface.\n\nThe platform provides direct access to the underlying smart contracts while maintaining full on-chain transparency and compatibility with the AYIN protocol.\n\nKey features include :\n- Token swaps through AYIN's automated market maker (AMM).\n- Creation and management of liquidity provider (LP) positions.\n- Monitoring of pool performance and liquidity allocations.\n- Staking and reward management through an intuitive interface.\n- Alternative frontend infrastructure that improves protocol accessibility and resilience."
+        },
+        "tags": [
+          "NextJs",
+          "typescript",
+          "AWS Cloudfront",
+          "AMM-DEX"
+        ],
+        "imageUrl": "/images/projects/alephium-ecosystem-suite/ayin-retro/cover.jpg",
+        "images": [
+          "/images/projects/alephium-ecosystem-suite/ayin-retro/04.ayin.retro.jpg"
+        ],
+        "links": [
+          {
+            "label": {
+              "fr": "Ayin Retro",
+              "en": "Ayin Retro"
+            },
+            "url": "https://www.ayin-retro.com/"
+          }
+        ],
+        "githubUrl": "https://github.com/MiniJudie/ayin-retro",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "digital-marketplace-platform",
+    "slug": "digital-marketplace-platform",
+    "title": {
+      "fr": "Digital Marketplace Platform",
+      "en": "Digital Marketplace Platform"
+    },
+    "description": {
+      "fr": "Plateforme B2B de mise en relation et d'échange de ressources, déclinée en marketplace principale et en plateformes dédiées pour grands comptes.",
+      "en": "B2B platform for resource sharing and exchange, delivered as a core marketplace and dedicated enterprise client platforms."
+    },
+    "category": {
+      "fr": "Marketplace B2B",
+      "en": "B2B Marketplace"
+    },
+    "tags": [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "ElasticSearch"
+    ],
+    "imageUrl": "/images/projects/digital-marketplace-platform/cover.jpg",
+    "featured": true,
+    "order": 2,
+    "subprojects": [
+      {
+        "id": "mytroc-pro",
+        "slug": "mytroc-pro",
+        "title": {
+          "fr": "MyTroc Pro",
+          "en": "MyTroc Pro"
+        },
+        "description": {
+          "fr": "MyTroc.pro est une plateforme de marketplaces en marque blanche destinée aux grands comptes, entreprises et organisations souhaitant déployer leur propre écosystème d'échange, de réemploi ou d'économie circulaire.\n\nLa solution repose sur un moteur de marketplace éprouvé permettant à chaque client de disposer d'une plateforme entièrement personnalisée, avec sa propre identité visuelle, ses règles métier, ses parcours utilisateurs et ses processus de gouvernance.\n\nConçue pour répondre aux exigences des grandes organisations, MyTroc.pro s'intègre aux systèmes d'information existants grâce à des mécanismes avancés d'authentification et de fédération d'identité.\n\nPrincipales fonctionnalités :\n- Déploiement de marketplaces en marque blanche.\n- Personnalisation complète de l'identité visuelle et des règles métier.\n- Intégration SSO (Single Sign-On) et connexion aux annuaires d'entreprise.\n- Outils de gouvernance, de modération et d'administration avancés.\n- Architecture évolutive adaptée aux grands volumes d'utilisateurs.\n- Hébergement souverain en France sur l'infrastructure d'OVHcloud.",
+          "en": "MyTroc.pro is a white-label marketplace platform designed for large organizations, enterprises, and public institutions seeking to deploy their own branded exchange and circular economy ecosystems.\n\nBuilt on a proven and scalable marketplace engine, MyTroc.pro enables each client to launch a fully customized platform with dedicated branding, business rules, user journeys, and governance models, while benefiting from a shared and continuously evolving technology stack.\n\nThe platform supports enterprise-grade integrations, including Single Sign-On (SSO), custom authentication workflows, and interoperability with existing corporate information systems.\n\nKey features include :\n- Fully white-label marketplace deployments.\n- Custom branding, workflows, and business rules for each client.\n- Enterprise SSO integration and identity management.\n- Configurable governance and moderation tools.\n- Scalable architecture designed for large user communities.\n- Sovereign hosting infrastructure provided through OVHcloud."
+        },
+        "tags": [
+          "PHP",
+          "JavaScript",
+          "MySQL",
+          "ElasticSearch"
+        ],
+        "imageUrl": "/images/projects/digital-marketplace-platform/mytroc-pro/cover.jpg",
+        "images": [
+          "/images/projects/digital-marketplace-platform/mytroc-pro/MyTrocpro.jpg"
+        ],
+        "links": [
+          {
+            "label": {
+              "fr": "MyTroc Pro",
+              "en": "MyTroc Pro"
+            },
+            "url": "https://www.mytroc.pro"
+          }
+        ],
+        "order": 1
+      },
+      {
+        "id": "custom-clients",
+        "slug": "custom-clients",
+        "title": {
+          "fr": "Plateformes grands comptes",
+          "en": "Enterprise client platforms"
+        },
+        "description": {
+          "fr": "## Plateformes de réemploi et d'économie circulaire pour grands comptes\n\nDéveloppement et déploiement de plateformes en marque blanche destinées aux grandes entreprises, collectivités et organisations.\n\nFonctionnalités clés :\n- Calcul d'impact environnemental et empreinte carbone\n- Gestion des transactions avec paiement en ligne\n- Génération automatisée de conventions de dons avec signature électronique\n- Modules de revente et redistribution de biens auprès des collaborateurs\n- Intégration aux systèmes d'information et processus métier existants\n- Mesure des bénéfices économiques, sociaux et environnementaux (RSE / ESG)",
+          "en": "## Reuse and circular economy platforms for enterprise clients\n\nDesign and deployment of white-label platforms for large enterprises, public organizations, and institutions.\n\nKey features include :\n- Environmental impact and carbon footprint calculations\n- Transaction management with online payment processing\n- Automated donation agreement generation with electronic signature\n- Employee resale and redistribution modules\n- Integration with existing enterprise systems and business workflows\n- Measurable economic, social, and environmental outcomes (ESG / sustainability)"
+        },
+        "tags": [
+          "Multi-tenant",
+          "White-label",
+          "PHP"
+        ],
+        "imageUrl": "/images/projects/digital-marketplace-platform/custom-clients/cover.jpg",
+        "images": [
+          "/images/projects/digital-marketplace-platform/custom-clients/enedis.jpg",
+          "/images/projects/digital-marketplace-platform/custom-clients/life2life.jpg",
+          "/images/projects/digital-marketplace-platform/custom-clients/sncf.jpg"
+        ],
+        "order": 2
+      }
+    ]
+  }
+]

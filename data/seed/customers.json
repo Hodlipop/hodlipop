@@ -1,0 +1,32 @@
+[
+  {
+    "id": "client-alpha",
+    "name": "TechStart Alpha",
+    "logoUrl": "/images/customers/alpha.svg",
+    "testimonial": {
+      "fr": "Judicael a livré notre MVP en un temps record, avec une qualité de code exemplaire.",
+      "en": "Judicael delivered our MVP in record time, with exemplary code quality."
+    },
+    "order": 1
+  },
+  {
+    "id": "client-beta",
+    "name": "DataFlow Beta",
+    "logoUrl": "/images/customers/beta.svg",
+    "testimonial": {
+      "fr": "Un partenaire technique fiable qui comprend les enjeux business.",
+      "en": "A reliable technical partner who understands business challenges."
+    },
+    "order": 2
+  },
+  {
+    "id": "client-gamma",
+    "name": "CloudScale Gamma",
+    "logoUrl": "/images/customers/gamma.svg",
+    "testimonial": {
+      "fr": "Son expertise AWS nous a permis de réduire nos coûts infra de 40%.",
+      "en": "His AWS expertise helped us reduce infrastructure costs by 40%."
+    },
+    "order": 3
+  }
+]

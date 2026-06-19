@@ -1,0 +1,86 @@
+{
+  "alephium-ecosystem-suite": {
+    "cover.jpg": {
+      "fr": "Alephium Ecosystem Suite",
+      "en": "Alephium Ecosystem Suite"
+    },
+    "alephium-mirrors": {
+      "cover.jpg": {
+        "fr": "Alephium Mirrors — annuaire des mirrors",
+        "en": "Alephium Mirrors — mirror directory"
+      },
+      "01.alephium.mirrors.jpg": {
+        "fr": "Alephium Mirrors — vue liste",
+        "en": "Alephium Mirrors — list view"
+      },
+      "02.alephium.mirrors.jpg": {
+        "fr": "Alephium Mirrors — détail mirror",
+        "en": "Alephium Mirrors — mirror detail"
+      }
+    },
+    "abx-mirror": {
+      "cover.jpg": {
+        "fr": "AlphBanX Mirror — suivi DeFi",
+        "en": "AlphBanX Mirror — DeFi monitoring"
+      },
+      "03.alphbanx.mirror.jpg": {
+        "fr": "AlphBanX Mirror — tableau de bord",
+        "en": "AlphBanX Mirror — dashboard"
+      }
+    },
+    "ayin-retro": {
+      "cover.jpg": {
+        "fr": "Ayin Retro — analytics DEX",
+        "en": "Ayin Retro — DEX analytics"
+      },
+      "04.ayin.retro.jpg": {
+        "fr": "Ayin Retro — interface analytics",
+        "en": "Ayin Retro — analytics interface"
+      }
+    },
+    "alphscan.io": {
+      "cover.jpg": {
+        "fr": "Alphscan.io — explorateur Alephium",
+        "en": "Alphscan.io — Alephium explorer"
+      },
+      "FireShot Capture 016 - Alephium Explorer - [localhost].png": {
+        "fr": "Alphscan.io — vue explorateur",
+        "en": "Alphscan.io — explorer view"
+      }
+    }
+  },
+  "digital-marketplace-platform": {
+    "cover.jpg": {
+      "fr": "Digital Marketplace Platform",
+      "en": "Digital Marketplace Platform"
+    },
+    "mytroc-pro": {
+      "cover.jpg": {
+        "fr": "MyTroc Pro — marketplace B2B",
+        "en": "MyTroc Pro — B2B marketplace"
+      },
+      "MyTrocpro.jpg": {
+        "fr": "MyTroc Pro — interface principale",
+        "en": "MyTroc Pro — main interface"
+      }
+    },
+    "custom-clients": {
+      "cover.jpg": {
+        "fr": "Plateformes grands comptes — Enedis, SNCF, Veolia",
+        "en": "Enterprise client platforms — Enedis, SNCF, Veolia"
+      },
+      "enedis.jpg": {
+        "fr": "Marketplace Enedis",
+        "en": "Enedis marketplace"
+      },
+      "life2life.jpg": {
+        "fr": "Plateforme Life2Life",
+        "en": "Life2Life platform"
+      },
+      "sncf.jpg": {
+        "fr": "Marketplace SNCF",
+        "en": "SNCF marketplace"
+      }
+    }
+  }
+}

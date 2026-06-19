@@ -1,0 +1,29 @@
+{
+  "name": "hodlipop",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @hodlipop/web dev",
+    "build": "pnpm -r build",
+    "build:web": "pnpm --filter @hodlipop/web build",
+    "build:opennext": "pnpm --filter @hodlipop/web build:opennext",
+    "deploy:aws": "pnpm build:opennext && pnpm --filter @hodlipop/infra run deploy && tsx scripts/sync-s3-assets.ts",
+    "sync:s3": "tsx scripts/sync-s3-assets.ts",
+    "seed": "tsx scripts/seed-dynamodb.ts",
+    "generate:cv": "tsx scripts/cv/generate-pdf.ts",
+    "optimize:images": "python3 scripts/optimize-images.py",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.830.0",
+    "@aws-sdk/lib-dynamodb": "^3.830.0",
+    "@hodlipop/shared": "workspace:*",
+    "puppeteer-core": "^25.1.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

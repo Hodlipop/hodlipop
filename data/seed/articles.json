@@ -1,0 +1,48 @@
+[
+  {
+    "id": "nextjs-aws-deployment",
+    "slug": "nextjs-aws-deployment",
+    "title": {
+      "fr": "Déployer Next.js sur AWS avec OpenNext",
+      "en": "Deploying Next.js on AWS with OpenNext"
+    },
+    "excerpt": {
+      "fr": "Guide pratique pour héberger une application Next.js sur AWS avec S3, Lambda et CloudFront.",
+      "en": "Practical guide to hosting a Next.js application on AWS with S3, Lambda, and CloudFront."
+    },
+    "body": {
+      "fr": "Dans cet article, nous explorons comment déployer une application Next.js en production sur AWS en utilisant OpenNext, CDK et les bonnes pratiques serverless.\n\n## Pourquoi AWS ?\n\nAWS offre une infrastructure scalable et pay-as-you-go, idéale pour les applications web modernes.\n\n## Architecture\n\nL'architecture recommandée combine S3 pour les assets statiques, Lambda pour le SSR, et CloudFront comme CDN global.",
+      "en": "In this article, we explore how to deploy a Next.js application to production on AWS using OpenNext, CDK, and serverless best practices.\n\n## Why AWS?\n\nAWS offers scalable, pay-as-you-go infrastructure, ideal for modern web applications.\n\n## Architecture\n\nThe recommended architecture combines S3 for static assets, Lambda for SSR, and CloudFront as a global CDN."
+    },
+    "publishedAt": "2025-06-01",
+    "imageUrl": "/images/articles/nextjs-aws.png",
+    "seo": {
+      "title": {
+        "fr": "Déployer Next.js sur AWS — Guide complet",
+        "en": "Deploy Next.js on AWS — Complete Guide"
+      },
+      "description": {
+        "fr": "Guide pratique pour déployer Next.js sur AWS avec OpenNext et CDK.",
+        "en": "Practical guide to deploy Next.js on AWS with OpenNext and CDK."
+      }
+    }
+  },
+  {
+    "id": "typescript-best-practices",
+    "slug": "typescript-best-practices",
+    "title": {
+      "fr": "TypeScript en production : bonnes pratiques",
+      "en": "TypeScript in production: best practices"
+    },
+    "excerpt": {
+      "fr": "Les patterns TypeScript que j'applique au quotidien pour des codebases maintenables.",
+      "en": "TypeScript patterns I use daily for maintainable codebases."
+    },
+    "body": {
+      "fr": "TypeScript est devenu incontournable pour le développement web moderne. Voici les pratiques que je recommande.\n\n## Typage strict\n\nActivez strict mode et noUncheckedIndexedAccess pour un typage robuste.\n\n## Zod pour la validation\n\nUtilisez Zod pour valider les données à runtime et inférer les types.",
+      "en": "TypeScript has become essential for modern web development. Here are the practices I recommend.\n\n## Strict typing\n\nEnable strict mode and noUncheckedIndexedAccess for robust typing.\n\n## Zod for validation\n\nUse Zod to validate data at runtime and infer types."
+    },
+    "publishedAt": "2025-05-15",
+    "imageUrl": "/images/articles/typescript.png"
+  }
+]

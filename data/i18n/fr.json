@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "siteName": "HODLIPOP",
+    "defaultTitle": "HODLIPOP — Senior Fullstack Product Engineer",
+    "defaultDescription": "Je conçois et développe des applications web modernes et performantes. 20+ ans d'expérience, CTO hands-on, full remote, FR/EN bilingue."
+  },
+  "nav": {
+    "home": "Accueil",
+    "expertise": "Expertises",
+    "projects": "Projets",
+    "missions": "Missions",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Discutons de votre projet"
+  },
+  "hero": {
+    "tagline": "Senior Fullstack Product Engineer",
+    "title": "Du prototype à la production.",
+    "description": "Renfort technique ponctuel ou accompagnement long terme sur des systèmes complexes.",
+    "ctaPrimary": "Discutons de votre projet",
+    "ctaSecondary": "Nos réalisations",
+    "stats": {
+      "experience": "20+ ans d'expérience",
+      "cto": "CTO hands-on",
+      "remote": "Full Remote",
+      "bilingual": "FR / EN Bilingue"
+    }
+  },
+  "services": {
+    "label": "MISSIONS FREELANCE",
+    "title": "Des solutions sur mesure pour vos projets digitaux",
+    "items": [
+      {
+        "title": "Développement Frontend",
+        "description": "Interfaces modernes, performantes et accessibles avec React, Next.js et TypeScript."
+      },
+      {
+        "title": "Applications Web Fullstack",
+        "description": "De l'API à l'interface, je livre des produits complets prêts pour la production."
+      },
+      {
+        "title": "Architecture & Cloud AWS",
+        "description": "Infrastructure scalable, CI/CD, serverless et bonnes pratiques DevOps."
+      },
+      {
+        "title": "Automatisation & Outils internes",
+        "description": "Scripts, dashboards et outils sur mesure pour optimiser vos processus."
+      },
+      {
+        "title": "Organisation",
+        "description": "Vision technique, conformité RGPD, appui aux dossiers CII ou CIR"
+      }
+    ]
+  },
+  "missions": {
+    "label": "MISSIONS",
+    "title": "Formats d'intervention à la carte",
+    "pageTitle": "Missions",
+    "pageDescription": "Du renfort ponctuel à l'accompagnement stratégique, je m'adapte à votre contexte, votre calendrier et vos enjeux techniques.",
+    "viewDetails": "Voir le détail des missions",
+    "contactCta": "Discuter de votre besoin",
+    "examplesLabel": "Exemples de missions",
+    "sections": [
+      {
+        "id": "ponctuelles",
+        "title": "Missions ponctuelles",
+        "description": "Interventions ciblées pour débloquer, livrer ou sécuriser un périmètre précis, sans engagement long terme.",
+        "highlights": [
+          "Audit technique ou revue d'architecture",
+          "Renfort sur un sprint ou une release critique",
+          "Correction de dette technique et bugs prioritaires",
+          "Mise en place d'un outil, d'un dashboard ou d'une automatisation"
+        ],
+        "examples": [
+          {
+            "title": "Publipostage et génération documentaire",
+            "description": "Développement de systèmes de génération automatisée de documents personnalisés (contrats, attestations, courriers, factures, rapports) à partir de bases de données ou de fichiers métiers. Envoi automatisé de courriers électroniques"
+          },
+          {
+            "title": "Renfort release sur une marketplace B2B",
+            "description": "Stabilisation d'une release critique : correction de bugs prioritaires, renforcement des tests et sécurisation du déploiement."
+          },
+          {
+            "title": "Dataviz et Tableaux de bord décisionnels",
+            "description": "Conception et réalisation de tableaux de bord interactifs sous Looker Studio, Power BI et autres plateformes de Business Intelligence. Mise en place d'indicateurs clés (KPI), de visualisations temps réel et d'outils de pilotage destinés à faciliter la prise de décision."
+          }
+        ]
+      },
+      {
+        "id": "longues",
+        "title": "Missions longues",
+        "description": "Engagements sur plusieurs semaines ou mois pour construire, faire évoluer ou moderniser un produit ou une plateforme.",
+        "highlights": [
+          "Développement fullstack Next.js / TypeScript en production",
+          "Évolution d'une application existante (PHP, Java, legacy)",
+          "Migration de stack, refonte progressive ou modularisation",
+          "Intégration APIs, data, reporting et workflows métier",
+          "Mise en place CI/CD, observabilité et bonnes pratiques de delivery"
+        ],
+        "examples": [
+          {
+            "title": "POC Next.js + déploiement serverless AWS",
+            "description": "Validation technique d'une stack Next.js / OpenNext sur AWS (Lambda, S3, CloudFront) avec pipeline CI/CD opérationnel."
+          },
+          {
+            "title": "Evolution de plateforme métier",
+            "description": "Développement fullstack, workflows métier, reporting et déploiements pour une marketplace et 15 plateformes grands comptes (PHP, MySQL, ElasticSearch)."
+          },
+          {
+            "title": "Refonte progressive frontend et modernisation stack",
+            "description": "Migration incrémentale vers Next.js / TypeScript, mise en place d'un design system et amélioration des pratiques de delivery (CI/CD, qualité de code)."
+          }
+        ]
+      }
+    ]
+  },
+  "stack": {
+    "label": "STACK & OUTILS",
+    "title": "Expertise technique",
+    "categories": [
+      {
+        "title": "Frontend",
+        "items": ["Next.js", "React", "TypeScript", "Stripe", "CSS", "SEO"]
+      },
+      {
+        "title": "Backend & APIs",
+        "items": ["Node.js", "PHP", "Java", "AWS Lambda", "AWS API Gateway", "REST APIs"]
+      },
+      {
+        "title": "Cloud & Infrastructure",
+        "items": ["AWS", "OVH Cloud", "Debian", "Grafana", "SonarQube", "DevOps"]
+      },
+      {
+        "title": "Data",
+        "items": ["PostgreSQL", "PostGIS", "MySQL", "DynamoDB", "Redis", "Elasticsearch"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "PROJETS SÉLECTIONNÉS",
+    "title": "Quelques réalisations",
+    "viewAll": "Voir tous les projets",
+    "pageTitle": "Projets",
+    "pageDescription": "Découvrez une sélection de projets web que j'ai conçus et développés pour mes clients.",
+    "subprojectsLabel": "Sous-projets",
+    "subprojectCount": "{count} sous-projets",
+    "github": "GitHub",
+    "previousProject": "Projet précédent",
+    "nextProject": "Projet suivant",
+    "projectNav": "Navigation entre projets"
+  },
+  "gallery": {
+    "openLightbox": "Agrandir l'image",
+    "expand": "Agrandir",
+    "close": "Fermer",
+    "previous": "Image précédente",
+    "next": "Image suivante",
+    "showImage": "Afficher l'image {index} sur {total}",
+    "imageCounter": "{current} / {total}"
+  },
+  "timeline": {
+    "label": "EXPÉRIENCE",
+    "title": "20+ ans d'expérience au service de vos projets",
+    "downloadCv": "Téléchargez mon CV",
+    "pageTitle": "Expérience",
+    "pageDescription": "Transformer des problématiques complexes en solutions opérationnelles. Du spatial aux applications web modernes, avec une approche pragmatique centrée sur la fiabilité.",
+    "valueLabel": "EXPERTISE",
+    "profile": {
+      "fullName": "Judicael DECRIEM",
+      "jobTitle": "Senior FullStack Product Engineer",
+      "location": "02300 Chauny (France)",
+      "email": "contact@hodlipop.com",
+      "languages": "Français / English",
+      "drivingLicense": "Permis A et B"
+    },
+    "profileFields": {
+      "location": "Adresse",
+      "email": "Email",
+      "languages": "Langues",
+      "drivingLicense": "Permis"
+    },
+    "profileLinks": {
+      "label": "LIENS",
+      "items": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/judicael-decriem-a28a5920/",
+          "icon": "linkedin"
+        },
+        {
+          "label": "Malt",
+          "url": "https://www.malt.fr/profile/judicaeldecriem",
+          "icon": "malt"
+        },
+        {
+          "label": "GitHub perso",
+          "url": "https://github.com/MiniJudie",
+          "icon": "github"
+        },
+        {
+          "label": "GitHub ",
+          "url": "https://github.com/Hodlipop",
+          "icon": "github"
+        },
+        {
+          "label": "Site web",
+          "url": "https://hodlipop.com",
+          "icon": "website"
+        }
+      ]
+    },
+    "items": [
+      {
+        "id": "freelance-2025",
+        "period": "janv. 2025 — aujourd'hui",
+        "role": "Product Engineer",
+        "company": "HODLIPOP",
+        "location": "Chauny, France · Full remote",
+        "highlights": [
+          "Développement d'applications web modernes avec Next.js et TypeScript",
+          "Mise en place d'automatisations de flux métier et reporting",
+          "Création d'outils internes orientés productivité et data",
+          "Intégration APIs, dashboards et traitements de données"
+        ]
+      },
+      {
+        "id": "mytroc-cto",
+        "period": "juin 2015 — janv. 2025",
+        "role": "Chief Technology Officer — Hands on",
+        "company": "MyTroc · CDI",
+        "location": "Paris, France · Hybride",
+        "highlights": [
+          "Développement, maintenance et évolution de la plateforme B2B et 15 plateformes B2B",
+          "Développement du framework interne PHP / JavaScript / CSS",
+          "Supervision et administration de l'infrastructure de production (OVH / Debian / Nginx / MySQL / ElasticSearch)",
+          "Structuration des équipes et des pratiques Agile",
+          "Pilotage de la cybersécurité (SAST, durcissement, outils de détection)"
+        ]
+      },
+      {
+        "id": "cnrs-hotvolc",
+        "period": "févr. 2013 — janv. 2014",
+        "role": "Lead Engineer — HotVolc GIS software",
+        "company": "CNRS",
+        "location": "Clermont-Ferrand, France · Sur site",
+        "highlights": [
+          "Développement d'un système de détection volcanique basé sur données satellites",
+          "Traitement de données et plateforme scientifique"
+        ]
+      },
+      {
+        "id": "harvest-rd",
+        "period": "mars 2011 — janv. 2013",
+        "role": "Software Engineer — fortune management",
+        "company": "Harvest SA",
+        "location": "Clermont-Ferrand, France · Sur site",
+        "highlights": [
+          "Développement d'applications web de gestion de patrimoine",
+          "Contribution au framework interne Java (J2EE, Spring, Tomcat)",
+          "Conception et évolution de briques logicielles métier",
+          "Conseil technique sur l'architecture applicative"
+        ]
+      },
+      {
+        "id": "reykjavik-phd",
+        "period": "sept. 2006 — mai 2011",
+        "role": "Ph.D. in Geophysics — Active deformation in South Iceland observed by space geodetic methods",
+        "company": "Reykjavik University",
+        "location": "Reykjavik, Islande · Sur site",
+        "highlights": [
+          "Analyse de données géodésiques (GPS, InSAR) à grande échelle",
+          "Modélisation physique et inversion de données",
+          "Développement d'outils scientifiques et pipelines de traitement",
+          "Calcul haute performance et simulations numériques",
+          "Administration systèmes Linux et gestion d'infrastructures scientifiques"
+        ]
+      },
+      {
+        "id": "cea-cassini",
+        "period": "déc. 2003 — août 2006",
+        "role": "Software Architect / Engineer — Cassini Huygens ground data segment",
+        "company": "CEA",
+        "location": "Saclay, France · Sur site",
+        "highlights": [
+          "Développement de systèmes scientifiques et spatiaux",
+          "Calibration, navigation et système de traitement des données infrarouges et optiques"
+        ]
+      },
+      {
+        "id": "cnes-mars-express",
+        "period": "févr. 2003 — juin 2003",
+        "role": "Software Engineer — Mars Express HRSC acquisition planning",
+        "company": "CNES",
+        "location": "Toulouse, France · Sur site",
+        "highlights": [
+          "Caractérisation de la surface de Mars via des données hétérogènes et ACP",
+          "Création d'un logiciel d'analyse d'images hyper-spectrales"
+        ]
+      },
+      {
+        "id": "arianespace",
+        "period": "sept. 2001 — janv. 2002",
+        "role": "Software Engineer — Operational Control ARIANE 5",
+        "company": "ARIANESPACE",
+        "location": "Kourou, Guyane française · Sur site",
+        "highlights": [
+          "Développement banc de contrôle commande ARIANE 5"
+        ]
+      },
+      {
+        "id": "eads-fleximage",
+        "period": "févr. 2001 — juin 2001",
+        "role": "Software Engineer — GIS military software",
+        "company": "EADS Fleximage",
+        "location": "Paris, France · Sur site",
+        "highlights": [
+          "Développement de chargeurs de données, raster, vecteur, 3D (DEM)"
+        ]
+      },
+      {
+        "id": "aerospatiale",
+        "period": "juin 2000 — août 2000",
+        "role": "Software Engineer — 3D Missile Trajectory Modelling",
+        "company": "Aérospatiale",
+        "location": "Paris, France · Sur site",
+        "highlights": [
+          "Simulation 3D pour modéliser la trajectoire d'un missile"
+        ]
+      }
+    ],
+    "values": [
+      "Frontend & Fullstack",
+      "Architecture logicielle",
+      "Cloud & AWS",
+      "Bases de données & Data",
+      "Automatisation & outils internes",
+      "Reprise et modernisation d'applications"
+    ],
+    "education": {
+      "label": "FORMATION",
+      "title": "Formation",
+      "items": [
+        {
+          "id": "haskoli-islands-phd",
+          "period": "2006 – 2010",
+          "degree": "PhD, géophysique",
+          "school": "Háskóli Íslands",
+          "logo": "/images/cv/education/haskoli-islands.jpg",
+          "description": "Déformation crustale par techniques géodésiques : séismes et mouvements de plaques dans la zone sismique du Sud de l'Islande."
+        },
+        {
+          "id": "polytech-paris-saclay-ms",
+          "period": "2000 – 2003",
+          "degree": "Master, informatique",
+          "school": "Polytech Paris-Saclay",
+          "logo": "/images/cv/education/polytech-paris-saclay.jpg",
+          "description": "Master en génie logiciel, spécialisation Intelligence Artificielle et Interface Homme Machine."
+        },
+        {
+          "id": "upjv-dut",
+          "period": "1999 – 2000",
+          "degree": "DUT, informatique",
+          "school": "Université de Picardie Jules Verne (UPJV)",
+          "logo": "/images/cv/education/upjv.png",
+          "description": "DUT Informatique en année spéciale."
+        },
+        {
+          "id": "universite-artois-dut",
+          "period": "1997 – 1999",
+          "degree": "DUT, OGP (Organisation et génie de production)",
+          "school": "Université d'Artois",
+          "logo": "/images/cv/education/universite-artois.jpg"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "title": "Un projet à construire, stabiliser ou accélérer ?",
+    "description": "Discutons de vos besoins et voyons comment je peux vous accompagner.",
+    "button": "Discutons de votre projet",
+    "email": "contact@hodlipop.com",
+    "location": "France — Full Remote",
+    "language": "FR / EN"
+  },
+  "footer": {
+    "copyright": "© {year} HODLIPOP — Tous droits réservés"
+  },
+  "about": {
+    "title": "À propos",
+    "description": "Développeur fullstack senior avec 20+ ans d'expérience, spécialisé dans les applications web modernes.",
+    "content": "Passionné par le développement web depuis 20+ ans, j'accompagne les entreprises dans la création de produits digitaux performants. Mon approche combine expertise technique, vision produit et pragmatisme pour livrer des solutions qui créent de la valeur.",
+    "skills": "Compétences clés",
+    "skillsList": [
+      "Architecture frontend & backend",
+      "Next.js, React, TypeScript",
+      "AWS, serverless, CI/CD",
+      "PostgreSQL, APIs REST & GraphQL",
+      "Leadership technique & mentoring"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Vous avez un projet en tête ? Contactez-moi pour en discuter.",
+    "emailLabel": "Email",
+    "locationLabel": "Localisation",
+    "languagesLabel": "Langues"
+  },
+  "articles": {
+    "title": "Articles",
+    "description": "Réflexions sur le développement web, l'architecture et le freelancing.",
+    "readMore": "Lire l'article"
+  },
+  "publications": {
+    "label": "PUBLICATIONS",
+    "title": "Publications scientifiques",
+    "description": "Travaux de recherche en géophysique et sciences planétaires, issus du doctorat à l'Université d'Islande et des missions Cassini et Mars Express.",
+    "totalCitations": "{count} citations au total (Google Scholar)",
+    "citations": "{count} citations",
+    "viewOnScholar": "Voir le profil Google Scholar",
+    "kinds": {
+      "journal": "Article",
+      "conference": "Conférence",
+      "thesis": "Thèse"
+    }
+  },
+  "common": {
+    "backHome": "Retour à l'accueil",
+    "loading": "Chargement..."
+  }
+}

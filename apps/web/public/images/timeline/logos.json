@@ -1,0 +1,122 @@
+{
+  "freelance-2025": {
+    "01-hodlipop.png": {
+      "fr": "HODLIPOP",
+      "en": "HODLIPOP"
+    },
+    "02-alephium.png": {
+      "fr": "Alephium",
+      "en": "Alephium"
+    }
+  },
+  "mytroc-cto": {
+    "01-mytroc.png": {
+      "fr": "MyTroc Pro",
+      "en": "MyTroc Pro"
+    },
+    "02-enedis.png": {
+      "fr": "Enedis",
+      "en": "Enedis"
+    },
+    "03-edf.png": {
+      "fr": "EDF",
+      "en": "EDF"
+    },
+    "05-suez.png": {
+      "fr": "Suez",
+      "en": "Suez"
+    },
+    "06-veolia.png": {
+      "fr": "Veolia",
+      "en": "Veolia"
+    },
+    "07-paris-habitat.png": {
+      "fr": "Paris Habitat",
+      "en": "Paris Habitat"
+    },
+    "08-arts-et-metiers.png": {
+      "fr": "Arts et Métiers",
+      "en": "Arts et Métiers"
+    },
+    "04-sncf.png": {
+      "fr": "SNCF",
+      "en": "SNCF"
+    }
+  },
+  "cnrs-hotvolc": {
+    "01-cnrs.png": {
+      "fr": "CNRS",
+      "en": "CNRS"
+    },
+    "02-uca.png": {
+      "fr": "Université Clermont Auvergne",
+      "en": "Clermont Auvergne University"
+    }
+  },
+  "harvest-rd": {
+    "01-harvest.png": {
+      "fr": "Harvest SA",
+      "en": "Harvest SA"
+    }
+  },
+  "reykjavik-phd": {
+    "01-university-of-iceland.png": {
+      "fr": "Université d'Islande",
+      "en": "University of Iceland"
+    },
+    "02-imo.png": {
+      "fr": "Office météorologique islandais",
+      "en": "Icelandic Meteorological Office"
+    }
+  },
+  "cea-cassini": {
+    "03-cassini-huygens.png": {
+      "fr": "Mission Cassini-Huygens",
+      "en": "Cassini-Huygens mission"
+    },
+    "01-cea.png": {
+      "fr": "CEA",
+      "en": "CEA"
+    },
+    "02-nasa.png": {
+      "fr": "NASA",
+      "en": "NASA"
+    }
+  },
+  "cnes-mars-express": {
+    "02-mars-express.png": {
+      "fr": "Mars Express",
+      "en": "Mars Express"
+    },
+    "03-omp.png": {
+      "fr": "Observatoire Midi-Pyrénées",
+      "en": "Midi-Pyrénées Observatory"
+    },
+    "01-cnes.png": {
+      "fr": "CNES",
+      "en": "CNES"
+    }
+  },
+  "arianespace": {
+    "01-arianespace.png": {
+      "fr": "Arianespace",
+      "en": "Arianespace"
+    },
+    "02-esa.png": {
+      "fr": "ESA",
+      "en": "ESA"
+    }
+  },
+  "eads-fleximage": {
+    "01-eads.png": {
+      "fr": "EADS Fleximage",
+      "en": "EADS Fleximage"
+    }
+  },
+  "aerospatiale": {
+    "01-aerospatiale.png": {
+      "fr": "Aérospatiale",
+      "en": "Aérospatiale"
+    }
+  }
+}

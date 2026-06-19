@@ -1,0 +1,23 @@
+{
+  "app": "npx tsx bin/app.ts",
+  "watch": {
+    "include": ["**"],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "node_modules",
+      "test"
+    ]
+  },
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "@aws-cdk/core:checkSecretUsage": true,
+    "domain": "hodlipop.com",
+    "cloudfrontCertificateArn": "arn:aws:acm:us-east-1:304824519169:certificate/609e4537-bd92-4624-a7ce-72a5e03c6198",
+    "webDomainNames": ["hodlipop.com", "www.hodlipop.com"]
+  }
+}

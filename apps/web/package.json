@@ -1,0 +1,36 @@
+{
+  "name": "@hodlipop/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:opennext": "open-next build && tsx ../../scripts/patch-opennext-server.ts",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hodlipop/shared": "workspace:*",
+    "@next/env": "^15.3.4",
+    "@swc/helpers": "^0.5.15",
+    "next": "^15.3.4",
+    "next-intl": "^4.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "styled-jsx": "^5.1.6"
+  },
+  "devDependencies": {
+    "@opennextjs/aws": "^3.6.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^22.15.32",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.29.0",
+    "eslint-config-next": "^15.3.4",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3"
+  }
+}
