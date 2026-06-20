@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 import * as cdk from "aws-cdk-lib";
+import { loadRepoEnv } from "../../scripts/load-env";
 import { DataStack } from "../lib/data-stack";
 import { ApiStack } from "../lib/api-stack";
 import { WebStack } from "../lib/web-stack";
+
+loadRepoEnv();
 
 const app = new cdk.App();
 

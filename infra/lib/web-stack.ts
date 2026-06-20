@@ -43,6 +43,12 @@ export class WebStack extends cdk.Stack {
         API_URL: props.apiUrl,
         NEXT_PUBLIC_API_URL: props.apiUrl,
         NEXT_PUBLIC_SITE_URL: `https://${this.node.tryGetContext("domain") ?? "hodlipop.com"}`,
+        MATOMO_URL: process.env.MATOMO_URL ?? "",
+        MATOMO_PROXY_TARGET: (process.env.MATOMO_URL ?? "").replace(/\/+$/, ""),
+        NEXT_PUBLIC_MATOMO_PROXY_PATH: "/api/matomo-proxy",
+        NEXT_PUBLIC_MATOMO_PROXY_JS_TRACKER_FILE: "matomo.js",
+        NEXT_PUBLIC_MATOMO_PROXY_PHP_TRACKER_FILE: "matomo.php",
+        NEXT_PUBLIC_MATOMO_SITE_ID: process.env.NEXT_PUBLIC_MATOMO_SITE_ID ?? "",
       },
     });
 

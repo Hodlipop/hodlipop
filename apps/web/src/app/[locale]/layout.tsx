@@ -1,10 +1,14 @@
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 
-import { routing } from "@/i18n/routing";
+import { MatomoAnalytics } from "@/components/analytics/MatomoAnalytics";
 import { Header, Footer } from "@/components/layout/HeaderFooter";
+import { routing } from "@/i18n/routing";
+import { createDefaultMetadata } from "@/lib/metadata";
 
 import "../globals.css";
 
@@ -15,6 +19,15 @@ const inter = Inter({
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return createDefaultMetadata(locale);
 }
 
 export default async function LocaleLayout({
@@ -40,6 +53,9 @@ export default async function LocaleLayout({
           <Header />
           <main>{children}</main>
           <Footer />
+          <Suspense fallback={null}>
+            <MatomoAnalytics />
+          </Suspense>
         </NextIntlClientProvider>
       </body>
     </html>

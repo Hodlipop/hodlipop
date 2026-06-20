@@ -3,9 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { CtaBanner } from "@/components/sections/CtaBanner";
 import { MissionsSection } from "@/components/sections/MissionsSection";
-import { getSiteUrl } from "@/lib/api";
+import { createPageMetadata } from "@/lib/metadata";
 import { SOCIAL_LINKS } from "@/lib/utils";
-import { routing } from "@/i18n/routing";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -14,18 +13,13 @@ type PageProps = {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact" });
-  const siteUrl = getSiteUrl();
 
-  return {
+  return createPageMetadata({
+    locale,
+    path: "contact",
     title: t("title"),
     description: t("description"),
-    alternates: {
-      canonical: `${siteUrl}/${locale}/contact`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, `${siteUrl}/${loc}/contact`]),
-      ),
-    },
-  };
+  });
 }
 
 export default async function ContactPage({ params }: PageProps) {

@@ -5,6 +5,7 @@ import { getLocalized } from "@hodlipop/shared";
 
 import { MarkdownContent } from "@/components/ui/MarkdownContent";
 import { getArticleBySlug, getArticles, getSiteUrl } from "@/lib/api";
+import { createPageMetadata } from "@/lib/metadata";
 import { JsonLd, createArticleJsonLd } from "@/lib/seo";
 import { routing } from "@/i18n/routing";
 import type { Locale } from "@hodlipop/shared";
@@ -33,25 +34,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     article.seo?.description
       ? getLocalized(article.seo.description, locale as Locale)
       : getLocalized(article.excerpt, locale as Locale);
-  const siteUrl = getSiteUrl();
 
-  return {
+  return createPageMetadata({
+    locale,
+    path: `articles/${slug}`,
     title,
     description,
-    alternates: {
-      canonical: `${siteUrl}/${locale}/articles/${slug}`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, `${siteUrl}/${loc}/articles/${slug}`]),
-      ),
-    },
     openGraph: {
-      title,
-      description,
-      url: `${siteUrl}/${locale}/articles/${slug}`,
       type: "article",
       publishedTime: article.publishedAt,
+      ...(article.imageUrl ? { images: [article.imageUrl] } : {}),
     },
-  };
+  });
 }
 
 export default async function ArticleDetailPage({ params }: PageProps) {

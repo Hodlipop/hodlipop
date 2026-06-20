@@ -10,6 +10,7 @@ import { ProjectPager } from "@/components/ui/ProjectPager";
 
 import { SubProjectTimeline } from "@/components/sections/SubProjectTimeline";
 import { getProjectBySlug, getProjectNeighbors, getProjects, getSiteUrl } from "@/lib/api";
+import { createPageMetadata } from "@/lib/metadata";
 import { JsonLd, createCreativeWorkJsonLd } from "@/lib/seo";
 import { routing } from "@/i18n/routing";
 import type { Locale } from "@hodlipop/shared";
@@ -33,24 +34,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = getLocalized(project.title, locale as Locale);
   const description = getLocalized(project.description, locale as Locale);
   const plainDescription = stripMarkdown(description);
-  const siteUrl = getSiteUrl();
 
-  return {
+  return createPageMetadata({
+    locale,
+    path: `projects/${slug}`,
     title,
     description: plainDescription,
-    alternates: {
-      canonical: `${siteUrl}/${locale}/projects/${slug}`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, `${siteUrl}/${loc}/projects/${slug}`]),
-      ),
-    },
-    openGraph: {
-      title,
-      description: plainDescription,
-      url: `${siteUrl}/${locale}/projects/${slug}`,
-      images: [{ url: project.imageUrl }],
-    },
-  };
+    openGraph: { images: [project.imageUrl] },
+  });
 }
 
 export default async function ProjectDetailPage({ params }: PageProps) {

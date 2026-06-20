@@ -3,8 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getLocalized } from "@hodlipop/shared";
 
 import { Link } from "@/i18n/navigation";
-import { getArticles, getSiteUrl } from "@/lib/api";
-import { routing } from "@/i18n/routing";
+import { getArticles } from "@/lib/api";
+import { createPageMetadata } from "@/lib/metadata";
 import type { Locale } from "@hodlipop/shared";
 
 type PageProps = {
@@ -14,18 +14,13 @@ type PageProps = {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "articles" });
-  const siteUrl = getSiteUrl();
 
-  return {
+  return createPageMetadata({
+    locale,
+    path: "articles",
     title: t("title"),
     description: t("description"),
-    alternates: {
-      canonical: `${siteUrl}/${locale}/articles`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, `${siteUrl}/${loc}/articles`]),
-      ),
-    },
-  };
+  });
 }
 
 export default async function ArticlesPage({ params }: PageProps) {

@@ -6,8 +6,7 @@ import { ExperienceProfile } from "@/components/sections/ExperienceProfile";
 import { ProfileLinks } from "@/components/sections/ProfileLinks";
 import { Publications } from "@/components/sections/Publications";
 import { Timeline } from "@/components/sections/Timeline";
-import { getSiteUrl } from "@/lib/api";
-import { routing } from "@/i18n/routing";
+import { createPageMetadata } from "@/lib/metadata";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -16,18 +15,13 @@ type PageProps = {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "timeline" });
-  const siteUrl = getSiteUrl();
 
-  return {
+  return createPageMetadata({
+    locale,
+    path: "parcours",
     title: t("pageTitle"),
     description: t("pageDescription"),
-    alternates: {
-      canonical: `${siteUrl}/${locale}/parcours`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, `${siteUrl}/${loc}/parcours`]),
-      ),
-    },
-  };
+  });
 }
 
 export default async function ParcoursPage({ params }: PageProps) {

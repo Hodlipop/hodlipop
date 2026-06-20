@@ -7,13 +7,13 @@ import { TechStack } from "@/components/sections/TechStack";
 import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
 import { Timeline } from "@/components/sections/Timeline";
 import { CtaBanner } from "@/components/sections/CtaBanner";
-import { getProjects, getSiteUrl } from "@/lib/api";
+import { getProjects } from "@/lib/api";
+import { createPageMetadata } from "@/lib/metadata";
 import {
   JsonLd,
   createPersonJsonLd,
   createProfessionalServiceJsonLd,
 } from "@/lib/seo";
-import { routing } from "@/i18n/routing";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -22,31 +22,14 @@ type PageProps = {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
-  const siteUrl = getSiteUrl();
 
-  return {
+  return createPageMetadata({
+    locale,
+    path: "",
     title: t("defaultTitle"),
     description: t("defaultDescription"),
-    alternates: {
-      canonical: `${siteUrl}/${locale}`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, `${siteUrl}/${loc}`]),
-      ),
-    },
-    openGraph: {
-      title: t("defaultTitle"),
-      description: t("defaultDescription"),
-      url: `${siteUrl}/${locale}`,
-      siteName: t("siteName"),
-      locale: locale === "fr" ? "fr_FR" : "en_US",
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("defaultTitle"),
-      description: t("defaultDescription"),
-    },
-  };
+    titleAbsolute: true,
+  });
 }
 
 export default async function HomePage({ params }: PageProps) {

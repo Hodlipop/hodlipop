@@ -13,6 +13,7 @@
   "dependencies": {
     "@hodlipop/shared": "workspace:*",
     "@next/env": "^15.3.4",
+    "@socialgouv/matomo-next": "^1.13.1",
     "@swc/helpers": "^0.5.15",
     "next": "^15.3.4",
     "next-intl": "^4.1.0",

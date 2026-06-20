@@ -29,7 +29,7 @@ pnpm dev
 
 Open [http://localhost:3000/fr](http://localhost:3000/fr).
 
-Copy `.env.example` to `apps/web/.env.local` for optional API/assets URLs. Without API URL, the app uses local JSON seed data.
+Copy `apps/web/.env.example` to `apps/web/.env.local` for optional API, Matomo, and site URL settings. Without API URL, the app uses local JSON seed data.
 
 ## Build
 
@@ -88,15 +88,6 @@ Find the ARN in ACM (N. Virginia / us-east-1) or run:
 aws acm list-certificates --region us-east-1 --output table
 ```
 
-### Retired stack
-
-`HodlipopAssets` (separate CDN for `static.hodlipop.com`) was removed — images and documents are served from the web bucket via `hodlipop.com`. To delete the old AWS stack:
-
-```bash
-cd infra && npx cdk destroy HodlipopAssets
-```
-
-The S3 bucket may be retained (empty it manually in S3 if needed).
 
 ## API endpoints
 
